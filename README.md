@@ -6,12 +6,12 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./src/assets/images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/maga-sv/nft-preview-card-component)
+- Live Site URL: (https://nft-preview-card-component-ms.netlify.app/)
 
 
 ## Author
