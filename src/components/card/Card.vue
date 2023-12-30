@@ -8,9 +8,9 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
   <div class="card">
     <div class="card__img">
       <img src="@/assets/images/image-equilibrium.jpg" alt="" />
-      <div class="card__img-active">
+      <a href="#!" class="card__img-active">
         <ViewIcon class="card__img-view" />
-      </div>
+      </a>
     </div>
 
     <a href="#!" class="card__name">Equilibrium #3429</a>
