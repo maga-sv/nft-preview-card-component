@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: var(--mainBg);
+}
+
+:root {
+
+    --primaryColor: hsl(215, 51%, 70%);
+    --secondaryColor: hsl(178, 100%, 50%);
+
+    --secondaryColorHover: hsla(178, 100%, 50%, 0.5);
+
+    --mainBg: hsl(217, 54%, 11%);
+    --cardBg: hsl(216, 50%, 16%);
+    --lineColor: hsl(215, 32%, 27%);
+    --accentColor: hsl(0, 0%, 100%);
+
+}
