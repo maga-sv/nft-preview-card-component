@@ -19,3 +19,4 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Frontend Mentor - [@maga_sv](https://www.frontendmentor.io/profile/maga-sv)
 - Twitter - [@magadvlpr](https://www.twitter.com/magadvlpr)
 - Telegram - [@maga_me](https://telegram.me/maga_me)
+- Instagram - [@maga.sv](https://instagram.com/maga.sv)
