@@ -92,6 +92,7 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
     color: var(--accentColor);
     font-size: 22px;
     transition: 400ms;
+    font-weight: 600;
 
     &:hover {
       color: var(--secondaryColor);
