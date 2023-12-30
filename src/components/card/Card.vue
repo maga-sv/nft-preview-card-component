@@ -7,7 +7,9 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
   <div class="card">
     <div class="card__img">
       <img src="@/assets/images/image-equilibrium.jpg" alt="" />
-      <ViewIcon class="card__img-view" />
+      <div class="card__img-active">
+        <ViewIcon class="card__img-view" />
+      </div>
     </div>
 
     <a href="#!" class="card__name">Equilibrium #3429</a>
@@ -60,8 +62,8 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
       height: 100%;
       width: 100%;
     }
-
-    &-view {
+    
+    &-active {
       position: absolute;
       bottom: -100%;
       left: 0;
@@ -71,13 +73,16 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
       transition: 400ms;
       z-index: 0;
       opacity: 0;
+      display: grid;
+      place-items: center;
     }
     
-    &:hover &-view {
+    &:hover &-active {
       bottom: 0;
       opacity: 1;
       z-index: 1;
     }
+    
   }
 
   &__name {
