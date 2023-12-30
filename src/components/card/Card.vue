@@ -1,4 +1,5 @@
 <script setup>
+import ClockIcon from "@/assets/images/ClockIcon.vue";
 import EthereumIcon from "@/assets/images/EthereumIcon.vue";
 import ViewIcon from "@/assets/images/ViewIcon.vue";
 </script>
@@ -23,7 +24,7 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
         <EthereumIcon /> <span>0.041 ETH</span>
       </div>
 
-      <span class="card__info-date">3 days left</span>
+      <span class="card__info-date"><ClockIcon />3 days left</span>
     </div>
 
     <div class="card__user">
@@ -120,6 +121,9 @@ import ViewIcon from "@/assets/images/ViewIcon.vue";
 
     &-date {
       color: var(--primaryColor);
+      display: flex;
+      align-items: center;
+      gap: 5px;
     }
   }
 
