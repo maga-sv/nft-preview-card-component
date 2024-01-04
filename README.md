@@ -10,8 +10,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: (https://github.com/maga-sv/nft-preview-card-component)
-- Live Site URL: (https://nft-preview-card-component-ms.netlify.app/)
+- Solution URL: https://github.com/maga-sv/nft-preview-card-component
+- Live Site URL: https://nft-preview-card-component-ms.netlify.app/
 
 
 ## Author
